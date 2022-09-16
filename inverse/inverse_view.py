@@ -5,7 +5,7 @@ from gi.repository import Gtk, GObject, GdkPixbuf, GLib
 
 class InverseView():
     def __init__(self):
-        self.win = Gtk.Window(title = "System of equations")
+        self.win = Gtk.Window(title = "Inverse of a matrix")
         self.win.set_default_size(width = 400, height = 400)
         self.win.set_resizable(False)
 
